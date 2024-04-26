@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/tt.unity
     guid: 2b4ffce3431764a1f8b79133ff3c3eaf
+  - enabled: 1
+    path: Assets/Scenes/tanakh.unity
+    guid: ae33419296d024c598482d928ca6fa4b
+  - enabled: 1
+    path: Assets/Scenes/dani.unity
+    guid: cb2e731e91da545b1b66523bd984b227
   m_configObjects: {}

@@ -398,9 +398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crosshairNormal: {fileID: 0}
-  crosshairInteract: {fileID: 0}
-  InteractionRange: 1
+  InteractionRange: 3
   InteractableLayer:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -416,11 +414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bc5db997044946f5bbcd49bdbf22a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allyE: {fileID: 0}
-  tanakhE: {fileID: 0}
-  daniE: {fileID: 0}
-  ttE: {fileID: 0}
-  InteractionRange: 2
+  InteractionRange: 3
   scenetransitionLayer:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -531,8 +525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crosshairNormal: {fileID: 0}
-  crosshairInteract: {fileID: 0}
   InteractionRange: 4
   InteractableLayer:
     serializedVersion: 2
