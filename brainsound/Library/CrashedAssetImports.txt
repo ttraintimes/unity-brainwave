@@ -1,1 +1,1 @@
-Assets/Packages/SkySerie Freebie/FreebieHdri/UnderTheSea4k.hdr
+Assets/models/WhaleWithHeart.mb
