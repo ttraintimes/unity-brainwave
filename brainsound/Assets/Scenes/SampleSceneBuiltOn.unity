@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.57087046, g: 1.0319964, b: 1.3979259, a: 1}
+  m_IndirectSpecularColor: {r: 0.016103873, g: 0.014637265, b: 0.013840056, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4088,6 +4088,16 @@ PrefabInstance:
       propertyPath: tanakhE
       value: 
       objectReference: {fileID: 1414050286}
+    - target: {fileID: 6832157176330279581, guid: 27b4c873b79c64590af281f7750bf983,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832157176330279582, guid: 27b4c873b79c64590af281f7750bf983,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6832157176330279582, guid: 27b4c873b79c64590af281f7750bf983,
         type: 3}
       propertyPath: crosshairNormal
@@ -8955,6 +8965,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5605431883049936335, guid: 5ba25fc845419465bafb2f0260776b8e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605431883162550516, guid: 5ba25fc845419465bafb2f0260776b8e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5605431883576861586, guid: 5ba25fc845419465bafb2f0260776b8e,
         type: 3}
       propertyPath: onMenuAppear.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -9074,6 +9094,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UICanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605431883896641318, guid: 5ba25fc845419465bafb2f0260776b8e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ba25fc845419465bafb2f0260776b8e, type: 3}
@@ -10581,7 +10606,7 @@ PrefabInstance:
     - target: {fileID: 7796612392632216854, guid: a4806832fa89b47ad9110c07ef6af48d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7577950614937084525, guid: a4806832fa89b47ad9110c07ef6af48d, type: 3}

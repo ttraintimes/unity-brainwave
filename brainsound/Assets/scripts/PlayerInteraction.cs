@@ -7,8 +7,6 @@ public class PlayerInteraction : MonoBehaviour
 {
     GameObject raycastedObj;
     ObjectInteraction referencedScript;
-    public Image crosshairNormal;
-    public Image crosshairInteract;
 
     [SerializeField] private int InteractionRange = 10;
     [SerializeField] private LayerMask InteractableLayer;
@@ -18,7 +16,6 @@ public class PlayerInteraction : MonoBehaviour
 
     void Start()
     {
-        crosshairInteract.enabled = false;
     }
 
     void Update()
@@ -30,8 +27,6 @@ public class PlayerInteraction : MonoBehaviour
         {
             if (hit.collider.CompareTag("ally"))
             {
-                crosshairNormal.enabled = false;
-                crosshairInteract.enabled = true;
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
 
@@ -46,8 +41,6 @@ public class PlayerInteraction : MonoBehaviour
         }
         else
         {
-            crosshairNormal.enabled = true;
-            crosshairInteract.enabled = false;
         }
 
     }

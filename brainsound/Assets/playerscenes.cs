@@ -7,10 +7,6 @@ public class playerscenes : MonoBehaviour
 {
     GameObject raycastedObj;
     ObjectInteraction referencedScript;
-    public Image allyE;
-    public Image tanakhE;
-    public Image daniE;
-    public Image ttE;
 
     [SerializeField] private int InteractionRange = 2;
     [SerializeField] private LayerMask scenetransitionLayer;
@@ -20,10 +16,6 @@ public class playerscenes : MonoBehaviour
 
     void Start()
     {
-        allyE.enabled = false;
-        tanakhE.enabled = false;
-        ttE.enabled = false;
-        daniE.enabled = false;
     }
 
     void Update()
@@ -35,7 +27,7 @@ public class playerscenes : MonoBehaviour
         {
             if (hit.collider.CompareTag("ally"))
             {
-                allyE.enabled = true;
+
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
 
@@ -49,7 +41,7 @@ public class playerscenes : MonoBehaviour
             }
             if (hit.collider.CompareTag("tanakh"))
             {
-                tanakhE.enabled = true;
+
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
 
@@ -63,7 +55,7 @@ public class playerscenes : MonoBehaviour
             }
             if (hit.collider.CompareTag("tt"))
             {
-                ttE.enabled = true;
+       
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
 
@@ -77,7 +69,7 @@ public class playerscenes : MonoBehaviour
             }
             if (hit.collider.CompareTag("dani"))
             {
-                daniE.enabled = true;
+
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
 
@@ -92,10 +84,6 @@ public class playerscenes : MonoBehaviour
         }
         else
         {
-            allyE.enabled = false;
-        tanakhE.enabled = false;
-        ttE.enabled = false;
-        daniE.enabled = false;
         }
 
     }
