@@ -1368,7 +1368,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5605431883125693317}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5605431883576861587}
@@ -1376,7 +1376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -642.60004, y: 206.29994}
+  m_AnchoredPosition: {x: -642.60004, y: 174.6}
   m_SizeDelta: {x: 400, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5605431883125693338
@@ -1407,8 +1407,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0c29a6825fedb32419534759880ca4de, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 2aa491c20ab5b4d948dd444d1855356f, type: 3}
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1418,7 +1418,7 @@ MonoBehaviour:
     m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.6
+    m_LineSpacing: 1.2
   m_Text: "Hello! Welcome to our virtual sound museum. Use the WASD keys or the arrow
     keys to navigate your way around. \n"
 --- !u!1 &5605431883162550516

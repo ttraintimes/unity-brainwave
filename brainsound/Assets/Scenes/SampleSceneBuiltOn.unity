@@ -4020,6 +4020,41 @@ PrefabInstance:
       propertyPath: crosshairInteract
       value: 
       objectReference: {fileID: 1641104134}
+    - target: {fileID: 6832157176328471409, guid: 27b4c873b79c64590af281f7750bf983,
+        type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832157176328471409, guid: 27b4c873b79c64590af281f7750bf983,
+        type: 3}
+      propertyPath: Priority
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832157176328471409, guid: 27b4c873b79c64590af281f7750bf983,
+        type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832157176328471409, guid: 27b4c873b79c64590af281f7750bf983,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832157176328471409, guid: 27b4c873b79c64590af281f7750bf983,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832157176328471409, guid: 27b4c873b79c64590af281f7750bf983,
+        type: 3}
+      propertyPath: BypassEffects
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832157176328471409, guid: 27b4c873b79c64590af281f7750bf983,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6832157176330110641, guid: 27b4c873b79c64590af281f7750bf983,
         type: 3}
       propertyPath: m_RootOrder
@@ -9047,6 +9082,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5605431882618718150, guid: 5ba25fc845419465bafb2f0260776b8e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5605431883049936335, guid: 5ba25fc845419465bafb2f0260776b8e,
         type: 3}
       propertyPath: m_IsActive
@@ -9056,6 +9096,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605431883576861585, guid: 5ba25fc845419465bafb2f0260776b8e,
+        type: 3}
+      propertyPath: Priority
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 5605431883576861586, guid: 5ba25fc845419465bafb2f0260776b8e,
         type: 3}

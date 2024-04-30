@@ -361,8 +361,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 3b5bbcc1e12646340bd957d24902d73e, type: 3}
-    m_FontSize: 17
+    m_Font: {fileID: 12800000, guid: 2aa491c20ab5b4d948dd444d1855356f, type: 3}
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -372,7 +372,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.6
+    m_LineSpacing: 1.2
   m_Text: This project, inspired by post-phenomenology, delves into the intricate
     connections between technology, human perception, and reality. Through multimodal
     sonic experiences, it explores how sound shapes our understanding of the world.
