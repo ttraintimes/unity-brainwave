@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0, g: 0.14937593, b: 0.1981132, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.06
+  m_FogColor: {r: 1, g: 0.75, b: 0.75, a: 0.45490196}
+  m_FogMode: 2
+  m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -9092,6 +9092,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5605431883125693339, guid: 5ba25fc845419465bafb2f0260776b8e,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 0c56cc75f8dc14b4096da7939cd9a21a,
+        type: 3}
     - target: {fileID: 5605431883162550516, guid: 5ba25fc845419465bafb2f0260776b8e,
         type: 3}
       propertyPath: m_IsActive
