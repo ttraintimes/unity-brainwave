@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - main
+  - GlassDoor
+  - Interactable
+  - ally
+  - tt
+  - tanakh
+  - dani
+  - board
   layers:
   - Default
   - TransparentFX
