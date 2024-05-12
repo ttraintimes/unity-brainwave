@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74e4e485b71a74c318cd218cf8fcc374, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalTime: 15
+  totalTime: 5
   countdownText: {fileID: 2008715762}
   newUIInterface: {fileID: 311781926}
   audioSource: {fileID: 934162213}
@@ -544,7 +544,7 @@ RectTransform:
   m_GameObject: {fileID: 1588939699}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.012, z: 1}
   m_Children: []
   m_Father: {fileID: 311781930}
   m_RootOrder: 0
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 62689786dc2ff408582e68f684d6e49e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4b2d4882818ee4de49dfc6f7140bd08b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -916,6 +916,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 352938217233346509, guid: beff6c779c0ff4487acdade4a90a332f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 99ba7448c9e7a48958b96a72cf9811ad,
+        type: 3}
     - target: {fileID: 2338632431766866092, guid: beff6c779c0ff4487acdade4a90a332f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -926,6 +932,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ExitBtn
       objectReference: {fileID: 0}
+    - target: {fileID: 2978994446694950492, guid: beff6c779c0ff4487acdade4a90a332f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4b2d4882818ee4de49dfc6f7140bd08b,
+        type: 3}
     - target: {fileID: 4257083654354676683, guid: beff6c779c0ff4487acdade4a90a332f,
         type: 3}
       propertyPath: m_IsActive
@@ -1145,7 +1157,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ac29504810b3445caa36e511814434cd,
+      objectReference: {fileID: 21300000, guid: 2b320d8b758864f19aefe4cdd83b934b,
         type: 3}
     - target: {fileID: 6040458297482186721, guid: beff6c779c0ff4487acdade4a90a332f,
         type: 3}

@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class CountDownTimer : MonoBehaviour
 {
-    public float totalTime = 15f; // Total time for countdown in seconds
+    public float totalTime = 5f; // Total time for countdown in seconds
     private float timeRemaining;
     public Text countdownText;
     public GameObject newUIInterface; // Reference to the new UI interface GameObject
