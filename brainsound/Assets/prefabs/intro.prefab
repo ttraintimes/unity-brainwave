@@ -363,7 +363,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2aa491c20ab5b4d948dd444d1855356f, type: 3}
     m_FontSize: 21
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
@@ -372,12 +372,11 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1.2
-  m_Text: This project, inspired by post-phenomenology, delves into the intricate
-    connections between technology, human perception, and reality. Through multimodal
-    sonic experiences, it explores how sound shapes our understanding of the world.
-    By translating matter into consciousness through sound, the installation vividly
-    portrays Struer's essence. Essentially, it examines how nature and the environment
-    manifest as vibrations, altering our consciousness, thereby emphasizing the consciousness
-    of matter. This project brings to life the translation between various waves,
-    illustrating their profound impact on our perception.
+    m_LineSpacing: 1.5
+  m_Text: Welcome to our virtual sound environment! Here you will listen to four
+    different audios that are re-sonifications of different people's brain waves.
+    Each audio will be unique because each person's brain had unique reactions while
+    listening to the same soundscape. You will also see that each brain looks entirely
+    different because they match each person's personalities and interests. We hope
+    you enjoy your experience and discover a little bit about how different waveforms
+    can be translated and sonified!
