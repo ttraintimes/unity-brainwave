@@ -1345,14 +1345,14 @@ PrefabInstance:
     - target: {fileID: 1503757356200393980, guid: 33aaaa5cf66a42d49ad7788b658eb6ad,
         type: 3}
       propertyPath: tutorialHelp.Array.data[1]
-      value: Check our research and design process and start your exploration from
-        the second floor
+      value: You may take a look at our process and methods and then start your exploration
+        from the second floor
       objectReference: {fileID: 0}
     - target: {fileID: 1503757356200393980, guid: 33aaaa5cf66a42d49ad7788b658eb6ad,
         type: 3}
       propertyPath: tutorialHelp.Array.data[2]
-      value: Check our research and design process and start your exploration from
-        the second floor
+      value: You may take a look at our process and methods and then start your exploration
+        from the second floor
       objectReference: {fileID: 0}
     - target: {fileID: 1503757356200393980, guid: 33aaaa5cf66a42d49ad7788b658eb6ad,
         type: 3}
@@ -9393,8 +9393,10 @@ PrefabInstance:
     - target: {fileID: 5605431883125693339, guid: 5ba25fc845419465bafb2f0260776b8e,
         type: 3}
       propertyPath: m_Text
-      value: "Hello! Welcome to our virtual sound museum. Follow the arrows to navigate
-        your way around. \n"
+      value: 'Hello! Welcome to our virtual sound museum. Follow the arrows to navigate
+        through the space
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5605431883125693339, guid: 5ba25fc845419465bafb2f0260776b8e,
         type: 3}
@@ -11678,6 +11680,56 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257786679454232510, guid: b375d41ffcb7e41a9af45dd75e806d10,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.006563562
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257786679454232510, guid: b375d41ffcb7e41a9af45dd75e806d10,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.007642411
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257786679454232510, guid: b375d41ffcb7e41a9af45dd75e806d10,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0053585363
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257786679454232510, guid: b375d41ffcb7e41a9af45dd75e806d10,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6911725
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257786679454232510, guid: b375d41ffcb7e41a9af45dd75e806d10,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.23825465
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257786679454232510, guid: b375d41ffcb7e41a9af45dd75e806d10,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.67375064
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257786679454232510, guid: b375d41ffcb7e41a9af45dd75e806d10,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.10758939
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257786679454232510, guid: b375d41ffcb7e41a9af45dd75e806d10,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 28.316002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257786679454232510, guid: b375d41ffcb7e41a9af45dd75e806d10,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -91.394005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257786679454232510, guid: b375d41ffcb7e41a9af45dd75e806d10,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -11.288
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b375d41ffcb7e41a9af45dd75e806d10, type: 3}
