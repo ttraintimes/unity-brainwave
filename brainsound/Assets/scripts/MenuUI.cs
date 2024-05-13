@@ -12,7 +12,8 @@ public class MenuUI : MonoBehaviour
 
     public void quitBtn()
     {
-        Application.Quit();
+        //Application.Quit();
+        SceneManager.LoadScene("menu");
     }
 
 }

@@ -14,7 +14,7 @@ public class audioreturn : MonoBehaviour
             g.SetActive(true);
         }
         
-        GameObject.Find("UICanvas").SetActive(false);
+    //    GameObject.Find("UICanvas").SetActive(false);
         Time.timeScale = 1;
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("SampleSceneBuiltOn"));
     }
